@@ -8,6 +8,8 @@ specifiers:
   "@types/react": 18.0.15
   eslint: 8.21.0
   eslint-config-next: 12.2.4
+  eslint-plugin-simple-import-sort: ^7.0.0
+  eslint-plugin-unused-imports: ^2.0.0
   husky: ^8.0.1
   lint-staged: ^13.0.3
   next: 12.2.4-canary.12
@@ -29,6 +31,8 @@ devDependencies:
   "@types/react": 18.0.15
   eslint: 8.21.0
   eslint-config-next: 12.2.4_qugx7qdu5zevzvxaiqyxfiwquq
+  eslint-plugin-simple-import-sort: 7.0.0_eslint@8.21.0
+  eslint-plugin-unused-imports: 2.0.0_eslint@8.21.0
   husky: 8.0.1
   lint-staged: 13.0.3
   prettier: 2.7.1
@@ -1201,6 +1205,42 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.7
+    dev: true
+
+  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.21.0:
+    resolution:
+      {
+        integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==,
+      }
+    peerDependencies:
+      eslint: ">=5.0.0"
+    dependencies:
+      eslint: 8.21.0
+    dev: true
+
+  /eslint-plugin-unused-imports/2.0.0_eslint@8.21.0:
+    resolution:
+      {
+        integrity: sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A==,
+      }
+    engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
+    peerDependencies:
+      "@typescript-eslint/eslint-plugin": ^5.0.0
+      eslint: ^8.0.0
+    peerDependenciesMeta:
+      "@typescript-eslint/eslint-plugin":
+        optional: true
+    dependencies:
+      eslint: 8.21.0
+      eslint-rule-composer: 0.3.0
+    dev: true
+
+  /eslint-rule-composer/0.3.0:
+    resolution:
+      {
+        integrity: sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg==,
+      }
+    engines: { node: ">=4.0.0" }
     dev: true
 
   /eslint-scope/5.1.1:
