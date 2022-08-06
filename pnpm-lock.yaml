@@ -4,6 +4,7 @@ specifiers:
   "@babel/eslint-parser": ^7.18.2
   "@babel/plugin-syntax-jsx": ^7.17.12
   "@babel/plugin-syntax-typescript": ^7.17.12
+  "@emotion/cache": ^11.10.1
   "@emotion/react": ^11.10.0
   "@emotion/server": ^11.10.0
   "@emotion/styled": ^11.10.0
@@ -23,6 +24,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
+  "@emotion/cache": 11.10.1
   "@emotion/react": 11.10.0_3hx2ussxxho4jajbwrd6gq34qe
   "@emotion/server": 11.10.0
   "@emotion/styled": 11.10.0_osjhb3oyc3dn55vkfbzx4nrkfi
