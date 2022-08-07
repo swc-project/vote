@@ -3,7 +3,7 @@ import React from "react";
 const Description: React.FC = () => {
   return (
     <div>
-      <p>This is an app to prioritize issues of SWC.</p>
+      <h2>This is an app to prioritize issues of SWC.</h2>
       <p></p>
       <p>
         There are lots of issues to work on, and we want to focus on real
